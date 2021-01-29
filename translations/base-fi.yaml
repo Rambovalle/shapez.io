@@ -14,7 +14,7 @@ steamPage:
 
         Vaikka alussa vain prosessoit muotoja, myöhemmin niitä pitää myös maalata - tätä varten sinun täytyy kerätä ja sekoittaa värejä
 
-        Pelin ostaminen Steamista antaa sinulle pääsyn pelin täysversioon, mutta voit myös pelata kokeiluversiota ensin sivuillamme shapez.io ja päättää myöhemmin!
+        Pelin ostaminen Steamista antaa sinulle pääsyn pelin kokoversioon, mutta voit myös pelata kokeiluversiota ensin sivuillamme shapez.io ja päättää myöhemmin!
     title_advantages: Täysversion hyödyt
     advantages:
         - <b>12 uutta tasoa</b> nostaen tasojen määrän 26 tasoon!
@@ -27,8 +27,8 @@ steamPage:
         - Tue minua! ❤️
     title_future: Suunniteltu sisältö
     planned:
-        - Pohjapiirustuskirjasto (Vain täysversiossa)
-        - Steam Achievements
+        - Pohjapiirustuskirjasto (Vain kokoversiossa)
+        - Steam saavutukset
         - Palapelitila
         - Minikartta
         - Modit
@@ -53,9 +53,9 @@ global:
     decimalSeparator: ","
     suffix:
         thousands: k
-        millions: M
-        billions: B
-        trillions: T
+        millions: Milj
+        billions: Mrd
+        trillions: B
     infinite: ∞
     time:
         oneSecondAgo: yksi sekunti sitten
@@ -67,8 +67,8 @@ global:
         oneDayAgo: yksi päivä sitten
         xDaysAgo: <x> päivää sitten
         secondsShort: <seconds>s
-        minutesAndSecondsShort: <minutes>m <seconds>s
-        hoursAndMinutesShort: <hours>h <minutes>m
+        minutesAndSecondsShort: <minutes>min <seconds>s
+        hoursAndMinutesShort: <hours>h <minutes>min
         xMinutes: <x> minuuttia
     keys:
         tab: SARKAIN
@@ -79,7 +79,7 @@ global:
         space: VÄLILYÖNTI
 demoBanners:
     title: Demoversio
-    intro: Hanki pelin täysversio avataksesi kaikki ominaisuudet!
+    intro: Hanki pelin kokoversio avataksesi kaikki ominaisuudet!
 mainMenu:
     play: Pelaa
     continue: Jatka
@@ -124,8 +124,8 @@ dialogs:
             '<savegameName>' tasossa <savegameLevel><br><br> Tätä toimintoa ei
             voi peruuttaa!
     savegameDeletionError:
-        title: Poisto epäonnistui
-        text: "Tallennuksen poisto epäonnistui:"
+        title: Poistaminen epäonnistui
+        text: "Tallennuksen poistaminen epäonnistui:"
     restartRequired:
         title: Uudelleenkäynnistys vaaditaan
         text: "Käynnistä peli uudelleen ottaaksesi asetukset käyttöön."
@@ -142,11 +142,11 @@ dialogs:
     featureRestriction:
         title: Demoversio
         desc: Yritit käyttää ominaisuutta (<feature>), joka ei ole saatavilla
-            demoversiossa. Hanki täysversio avataksesi kaikki ominaisuudet!
+            demoversiossa. Hanki kokoversio avataksesi kaikki ominaisuudet!
     oneSavegameLimit:
         title: Rajoitetut tallennukset
         desc: Sinulla voi olla demoversiossa vain yksi tallennus kerrallaan. Poista
-            vanha tallennus tai hanki täysversio pelistä!
+            vanha tallennus tai hanki kokoversio pelistä!
     updateSummary:
         title: Uusi päivitys!
         desc: "Tässä uudet muutokset edellisen pelikertasi jälkeen:"
@@ -277,7 +277,7 @@ ingame:
         noShapesProduced: Muotoja ei ole vielä tuotettu.
         shapesDisplayUnits:
             second: <shapes> / s
-            minute: <shapes> / m
+            minute: <shapes> / min
             hour: <shapes> / h
     settingsMenu:
         playtime: Peliaika
